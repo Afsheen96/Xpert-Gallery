@@ -1,0 +1,9 @@
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+.bgimage {
+    height:100vh;
+    background: url('Images/art gallery final.jpg');
+    background-size:cover;
+    position:relative;
+}
