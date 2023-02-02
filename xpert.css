@@ -22,3 +22,12 @@
     transform: translate(-50%, -50%);
     color: rgb(109, 240, 218);
 }
+.search {
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius:  5px;
+    border: 1px solid #fff;
+}  
