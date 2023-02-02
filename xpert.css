@@ -1,11 +1,12 @@
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgb(48, 24, 24);
 }
 .bgimage {
     height:100vh;
-    background: url('Images/art gallery final.jpg');
+    background: url('Images/heroimage1.jpeg');
     background-size:cover;
     position:relative;
+    padding-top: 100px;
 }
 .hero_title {
     font-size: 4.5rem;
@@ -19,5 +20,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(109, 240, 218);
 }
