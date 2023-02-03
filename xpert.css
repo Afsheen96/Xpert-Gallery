@@ -2,12 +2,11 @@
     background-color: rgb(102, 96, 96);
 }
 .bgimage {
-    height:100vh;
+    height:50vh;
     background: url('Images/man.jpg');
     background-size:cover;
     position:relative;
     padding-top: 100px;
-    background-repeat: no-repeat;
 }
 .hero_title {
     font-size: 3rem;
