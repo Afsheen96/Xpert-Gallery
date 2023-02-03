@@ -3,7 +3,7 @@
 }
 .bgimage {
     height:50vh;
-    background: url('Images/heroimage2.jpeg');
+    background: url('Images/man.jpg');
     background-size:cover;
     position:relative;
     padding-top: 100px;
@@ -21,6 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(12, 11, 11);
-    border: 5px solid rgb(49, 27, 27);
+    /* border: 5px solid rgb(49, 27, 27);
     background-color: rgb(155, 114, 67);
+} */
 }
