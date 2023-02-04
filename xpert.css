@@ -26,9 +26,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(245, 245, 243);
-    /* border: 5px solid rgb(49, 27, 27);
-    background-color: rgb(155, 114, 67);
-} */
 }
 @media only screen and (max-width: 920px){
     .bgimage{
