@@ -8,12 +8,16 @@
     position:relative;
     padding-top: 100px;
     padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .hero_title {
     font-size: 3rem;
 }
 .hero_desc {
     font-size: 1.5rem;
+    text-align: center;
 }
 .hero-text {
     text-align: center;
@@ -21,8 +25,19 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(12, 11, 11);
+    color: rgb(245, 245, 243);
     /* border: 5px solid rgb(49, 27, 27);
     background-color: rgb(155, 114, 67);
 } */
 }
+@media only screen and (max-width: 920px){
+    .bgimage{
+        margin-top: 100px;
+    }
+}
+ 
+@media only screen and (max-width: 540px){
+    .bgimage{
+        margin-top: 150px;
+    }
+    }
