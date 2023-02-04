@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form To Email Using JavaScript</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="container">
+    <form onsubmit="submitEmail(); reset(); return false;">
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="eamil" placeholder="Email Id" required>
+        <input type="text" id="phone" placeholder="Phone no." required>
+        <textarea id="message" rows="10" placeholder="How can we help you?"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>

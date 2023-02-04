@@ -1,0 +1,40 @@
+.navbarScroll.navbarDark {
+    background-color: rgb(102, 96, 96);
+}
+.bgimage {
+    height:50vh;
+    background: url('Images/man-transformed.jpeg');
+    background-size:cover;
+    position:relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.hero_title {
+    font-size: 3rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(245, 245, 243);
+}
+@media only screen and (max-width: 920px){
+    .bgimage{
+        margin-top: 100px;
+    }
+}
+ 
+@media only screen and (max-width: 540px){
+    .bgimage{
+        margin-top: 150px;
+    }
+    }
