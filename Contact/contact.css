@@ -40,15 +40,15 @@ form input, form textarea{
 }
 
 form button{
-    padding: 15px;
+    padding: 5px;
     background: #bd0404;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     border: 0;
     outline: none;
     cursor: pointer;
-    width: 300px;
+    width: 200px;
     margin: 20px auto 0;
-    border-radius: 30px;
+    border-radius: 28px;
 }
