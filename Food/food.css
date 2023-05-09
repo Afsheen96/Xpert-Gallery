@@ -1,0 +1,33 @@
+body {
+    /* background-image: url('images\wallpaperflare.com_wallpaper.jpg'); */
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+  }
+
+#portfolio {
+    height:50vh;
+    font-size: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .btn {
+       padding: 5px;
+       background: green;
+       color: #ffffff;
+       font-size: 20px;
+       /*font-family: Brush Script MT, Brush Script Std, cursive;*/
+       border: 0;
+       outline: none;
+       cursor: pointer;
+       width: 200px;
+       margin: 20px auto 0;
+       border-radius: 6px;
+       text-decoration: none;
+    }
