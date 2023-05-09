@@ -17,6 +17,11 @@ body {
     transform: translate(-50%, -50%);
     padding: auto;
     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
 }
 
     .btn {
