@@ -1,11 +1,10 @@
-body {
-    /* background-image: url('images\wallpaperflare.com_wallpaper.jpg'); */
-    background-color: bisque;
-    background-repeat: no-repeat;
+#bodie {
+    background-color: rgb(16, 112, 107);
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center top;*/
   }
-#portfolio {
+/* #portfolio {
     height:50vh;
     font-size: 3rem;
     font-size: 1.5rem;
@@ -14,4 +13,4 @@ body {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
